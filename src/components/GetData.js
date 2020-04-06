@@ -25,9 +25,9 @@ function GetData() {
     return (
         console.log('NASA Data: ', nasaData),
         <div>
-            <div>GET NASA PHOTO OF THE DAY DATA</div>
-            <ShowData title={nasaData.title} explanation={nasaData.explanation} date={nasaData.date} />
+            {/* <div>GET NASA PHOTO OF THE DAY DATA</div> */}
             <ShowPicture src={nasaData.url} alt={nasaData.title} />
+            <ShowData title={nasaData.title} explanation={nasaData.explanation} date={nasaData.date} />
         </div>
     )
 }

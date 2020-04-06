@@ -1,5 +1,5 @@
 import React from 'react';
-// import "./Picture.css";
+import "./Data.css";
 
 function ShowData (props) {
     return (
