@@ -1,0 +1,35 @@
+.data, .button {
+    border: 1.5px solid red;
+    border-left: none;
+    border-top-right-radius: 4.5rem;
+    background: rgba(0,0,0,0.7);
+    width: 90%;
+    position: sticky;
+    bottom: 10vh;
+    color: white;
+    font-size: 1.15rem;
+    text-align: left;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.button {
+    width: 3.25rem;
+    font-size: 1rem;
+    padding: .75rem;
+    background: rgba(255,0,0,0.15);
+    border-left: none;
+    border-bottom-right-radius: 4.5rem;
+}
+
+.hideButton {
+    font-size: 1rem;
+    border: 1px solid red;
+    border-left: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: rgba(255,0,0,0.15);
+    margin-right: 2rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
