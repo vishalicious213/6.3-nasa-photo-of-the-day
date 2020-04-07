@@ -24,7 +24,7 @@ function GetData() {
     // console.log('API KEY: ', process.env.REACT_APP_API_KEY);
 
     return (
-        console.log('NASA Data: ', nasaData),
+        // console.log('NASA Data: ', nasaData),
         <div className='container'>
             {/* <div>GET NASA PHOTO OF THE DAY DATA</div> */}
             <ShowPicture src={nasaData.url} alt={nasaData.title} />

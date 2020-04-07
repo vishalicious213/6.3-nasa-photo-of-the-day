@@ -1,5 +1,6 @@
 .data, .button {
     border: 1.5px solid red;
+    border-left: none;
     border-top-right-radius: 4.5rem;
     background: rgba(0,0,0,0.7);
     width: 90%;
@@ -9,6 +10,7 @@
     font-size: 1.15rem;
     text-align: left;
     padding: 1rem;
+    padding-top: 0;
 }
 
 .button {
