@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Data.css";
 
 function ShowData (props) {
     return (
         <div className='data'>
-            <div>{props.title}</div>
+            <h2>{props.title}</h2>
             <div>{props.explanation}</div>
-            <div>{props.date}</div>
-            <img src={props.src} alt={props.title}/>
+            <div><b>{props.date}</b></div>
         </div>
+
+        // <div className='button'>Details</div>
     )
 }
 
