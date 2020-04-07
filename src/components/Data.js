@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import "./Data.css";
 
 function ShowData (props) {
-    const [isToggled, setToggled] = useState(false);
+    const [isToggled, setToggled] = useState(true);
 
     const toggleDetail = () => setToggled(!isToggled);
 
     const Details = () => {
         return (
-            <div onClick={toggleDetail} className='data'>
+            <div className='data'>
                 <h2>{props.title}</h2>
                 <div>{props.explanation}</div>
-                <div><b>{props.date}</b></div>
+                <div><span onClick={toggleDetail} className='hideButton'>Hide</span><b>{props.date}</b></div>
             </div>
         )
     }
