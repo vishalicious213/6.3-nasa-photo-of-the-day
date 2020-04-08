@@ -1,3 +1,35 @@
 .container {
     position: relative;
+    top: -5vh;
 }
+
+.calendar {
+    position: fixed;
+    top: 92vh;
+    font-size: 1rem;
+    width: 8.5rem;
+    border: 1px solid red;
+    border-left: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: rgba(255,0,0,0.15);
+    margin-right: 2rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .6rem;
+    padding-right: .75rem;
+}
+
+input[type="date"] {
+    background-color: rgba(255,0,0,0.15);
+    /* outline: none; */
+}
+
+/* ::-webkit-datetime-edit { padding: 1em; } */
+/* ::-webkit-datetime-edit-fields-wrapper { background: silver; } */
+::-webkit-datetime-edit-text { color: white; }
+::-webkit-datetime-edit-month-field { color: white; }
+::-webkit-datetime-edit-day-field { color: white; }
+::-webkit-datetime-edit-year-field { color: white; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { color: white; background: rgba(255,0,0,0.15); }
