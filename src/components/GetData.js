@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ShowPicture from './Picture';
 import ShowData from './Data';
+import Calendar from './Calendar';
 import './GetData.css';
 
 function GetData() {
@@ -27,6 +28,7 @@ function GetData() {
         // console.log('NASA Data: ', nasaData),
         <div className='container'>
             {/* <div>GET NASA PHOTO OF THE DAY DATA</div> */}
+            <Calendar />
             <ShowPicture src={nasaData.url} alt={nasaData.title} />
             <ShowData title={nasaData.title} explanation={nasaData.explanation} date={nasaData.date} />
         </div>
