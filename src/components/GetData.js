@@ -27,7 +27,7 @@ function GetData() {
 
     const Calendar = () => {
         function getDate(event) {
-            console.log(event.target.value);
+            // console.log(event.target.value);
             setDate(event.target.value);
         }
 
