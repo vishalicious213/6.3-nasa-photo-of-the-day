@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Data.css";
 
 function ShowData (props) {
-    const [isToggled, setToggled] = useState(true);
+    const [isToggled, setToggled] = useState(false);
 
     const toggleDetail = () => setToggled(!isToggled);
 
